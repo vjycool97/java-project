@@ -1,0 +1,32 @@
+<HTML>
+<HEAD>
+<head>
+<script language="javascript">
+function imp(s)
+{
+document.write("<font size=3>this may take a few minutes . . . . . .</font><br><applet code=\"display.class\" height=600 width=900><param name=imgn value=");
+
+document.write(s);
+document.write("></applet>");
+} 
+</script>
+</head>
+
+
+<BODY>
+<center>
+<form name=f1>
+<br><br>
+<img src="search_wave.jpg" height=200 width=200> <br><br><br>
+<input name=img1 type="image" src="5.jpg" value="5.jpg" height = 100 width=100 onclick="imp('C:\\irmproject\\irmfinal2\\5.jpg')">
+<input name=img1 type="image" src="26.jpg" value="26.jpg" height = 100 width=100 onclick="imp('C:\\irmproject\\irmfinal2\\26.jpg')">
+<input name=img1 type="image" src="52.jpg" value="52.jpg" height = 100 width=100 onclick="imp('C:\\irmproject\\irmfinal2\\52.jpg')"><br>
+<input name=img1 type="image" src="85.jpg" value="85.jpg" height = 100 width=100 onclick="imp('C:\\irmproject\\irmfinal2\\85.jpg')">
+<input name=img1 type="image" src="67.jpg" value="67.jpg" height = 100 width=100 onclick="imp('C:\\irmproject\\irmfinal2\\67.jpg')">
+<br><br>
+<input type = file name=input><br><br>
+<input type = button value="search" onClick="imp(input.value)">
+<br><br>
+</center>
+</BODY>
+</HTML>
